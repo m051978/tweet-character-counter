@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    
+}
+
+body{
+    width: 100%;
+    background: rgb(255,222,233);
+    background: linear-gradient(0deg, rgba(255,222,233,1) 0%, rgba(181,255,252,1) 100%);
+    background-repeat: no-repeat;
+}
+
+main{
+    text-align: center;
+    padding: 150px 0;
+}
+
+
+
+main h1{
+    font-family: "Helvetica Neue";
+    color: #1DA1F2;
+    padding-bottom: 10px;
+}
+
+main p{
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.644);
+}
+
+main textarea {
+    margin-top: 15px;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+    box-sizing: content-box;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.521);
+    display: inline;
+}
+
+main .counter{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  
+}
+
+main .counter .tweetCharacters{
+    padding-right: 20px;
+    margin: 0;
+}
+
+main .counter #tweetLeft{
+    padding-left: 20px;
+    border-left: 1px solid rgba(0, 0, 0, 0.521);;
+    height: 8px;
+
+}
+
+@media (max-width: 400px){
+    main{
+        text-align: center;
+        padding-top: 140px;
+    }
+
+    main p{
+        font-size: 10px;
+    }
+}
+
+
+
