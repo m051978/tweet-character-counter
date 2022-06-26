@@ -93,7 +93,7 @@ main .counter #tweetLeft{
     }
     
     main .counter p, span{
-        font-size: 13px;
+        font-size: 12px;
     }
     
     main .counter .tweetCharacters{
